@@ -22,8 +22,8 @@ class Cache {
     
     //Setting cache properties for NSCache object
     private init() {
-        cache.countLimit = 100
-        cache.totalCostLimit = 10*10*1024
+        cache.countLimit = 40
+        cache.totalCostLimit = 20*1024*1024
         cache.evictsObjectsWithDiscardedContent = true
     }
     
