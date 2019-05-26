@@ -35,9 +35,3 @@ extension NSObject {
      return String(describing: self)
     }
 }
-
-extension Data {
-    var nsData: NSData {
-        return self as NSData
-    }
-}

@@ -30,7 +30,7 @@ class Cache {
     // MARK: - Functions
     
     func setToCache(url: String, data: Data) {
-        Cache.shared.cache.setObject(data.nsData, forKey: url as NSString)
+        Cache.shared.cache.setObject(data as NSData, forKey: url as NSString)
     }
     
     func returnData(url: String) -> Data? {
